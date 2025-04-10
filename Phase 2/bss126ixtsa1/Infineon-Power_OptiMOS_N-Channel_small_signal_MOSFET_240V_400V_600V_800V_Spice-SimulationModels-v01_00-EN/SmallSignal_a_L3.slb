@@ -1,0 +1,382 @@
+*version 9.1 327904709
+@index
+symloc DMOS_K_L3_SSP_n 0 1698 b
+symloc BSS131:DMOS_K_L3_SSP_n 1698 557
+symloc BSS87:DMOS_K_L3_SSP_n 2255 554
+symloc BSP89:DMOS_K_L3_SSP_n 2809 554
+symloc BSP88:DMOS_K_L3_SSP_n 3363 555
+symloc BSP129:DMOS_K_L3d_SSP_n 3918 558
+symloc DMOS_K_L3d_SSP_n 4476 1699 b
+symloc BSS139:DMOS_K_L3d_SSP_n 6175 554
+symloc BSP324:DMOS_K_L3_SSP_n 6729 553
+symloc SISC1_4N40E:DMOS_K_L3_SSP_n 7282 568
+symloc BSP125:DMOS_K_L3_SSP_n 7850 553
+symloc SISC1_4N60D:DMOS_K_L3d_SSP_n 8403 569
+symloc BSS126:DMOS_K_L3d_SSP_n 8972 554
+symloc SISC0_97N24D:DMOS_K_L3_SSP_n 9526 571
+symloc BSS225:DMOS_K_L3_SSP_n 10097 553
+symloc BSS127:DMOS_K_L3_SSP_n 10650 553
+symloc BSP135:DMOS_K_L3d_SSP_n 11203 554
+*symbol DMOS_K_L3_SSP_n b
+d Infineon DMOS with thermal network
+@type p 8.0
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=DMOS_S2_L3_n
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=DMOS_L3
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 dZth=
+@pins
+p 0 25 40 hcn 100 source n 30 40 v
+a 0 s 0:1 0 31 38 hln 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 10 20 hcn 100 gate n 0 20 h
+a 0 s 0:1 0 1 18 hln 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 drain n 30 0 d
+a 0 s 0:1 0 31 -2 hln 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 70 8 hrn 100 Tj n 60 10 u
+a 0 s 0:1 0 51 16 hln 100 PIN=4
+a 0 s 0:13 0 60 10 hln 100 ERC=x
+a 0 s 0:13 0 0 10 hln 100 FLOAT=r
+p 0 88 26 hrn 100 Tsolder_joint n 60 30 u
+a 0 s 0:1 0 51 36 hln 100 PIN=5
+a 0 s 0:13 0 60 30 hln 100 ERC=x
+@graphics 60 40 0 0 10
+c 0 25 20 20 d_info:,0/0/0,,,,,,,,,,,,, 
+v 0 30 30
+38 30
+38 10
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 20 20
+25 24
+;
+v 0 25 16
+20 20
+;
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+20 20
+;
+v 0 20 13
+20 7
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 30 20
+30 30
+;
+v 0 38 10
+30 10
+;
+v 0 20 10
+30 10
+;
+v 0 20 33
+20 27
+;
+v 0 20 23
+20 17
+;
+z 26 54 6 hln 100 2 d_info:,,,,,,,,,,,,,5, 
+Tj
+z 26 46 27 hln 100 13 d_info:,0/128/0,,,,,,,,,,,,5, 
+Tsolder_joint
+*symbol BSS131 ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p 8.0
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSS131
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSS131
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 dZth=
+*symbol BSS87 ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p 8.0
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSS87
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSS87
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 dZth=
+*symbol BSP89 ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p 8.0
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSP89
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSP89
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 dZth=
+*symbol BSP88 ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p 8.0
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSP88
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSP88
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 dZth=
+*symbol BSP129 ako DMOS_K_L3d_SSP_n
+d Infineon DMOS with thermal network
+@type p 9.2
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSP129
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSP129
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 dZth=
+*symbol DMOS_K_L3d_SSP_n b
+d Infineon DMOS with thermal network
+@type p 9.2
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=DMOS_S2_L3_n
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=DMOS_L3
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 dZth=
+@pins
+p 0 25 40 hcn 100 source n 30 40 v
+a 0 s 0:1 0 31 38 hln 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 10 20 hcn 100 gate n 0 20 h
+a 0 s 0:1 0 1 18 hln 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 drain n 30 0 d
+a 0 s 0:1 0 31 -2 hln 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 70 8 hrn 100 Tj n 60 10 u
+a 0 s 0:1 0 51 16 hln 100 PIN=4
+a 0 s 0:13 0 60 10 hln 100 ERC=x
+a 0 s 0:13 0 0 10 hln 100 FLOAT=r
+p 0 88 26 hrn 100 Tsolder_joint n 60 30 u
+a 0 s 0:1 0 51 36 hln 100 PIN=5
+a 0 s 0:13 0 60 30 hln 100 ERC=x
+@graphics 60 40 0 0 10
+c 0 25 20 20 d_info:,0/0/0,,,,,,,,,,,,, 
+v 0 30 30
+38 30
+38 10
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 20 20
+25 24
+;
+v 0 25 16
+20 20
+;
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+20 20
+;
+v 0 20 17
+20 7
+;
+v 0 15 10
+15 30
+;
+v 0 20 30
+30 30
+;
+v 0 10 20
+15 20
+;
+v 0 30 20
+30 30
+;
+v 0 38 10
+30 10
+;
+v 0 20 10
+30 10
+;
+v 0 20 33
+20 27
+;
+v 0 20 27
+20 17
+;
+z 26 54 6 hln 100 2 d_info:,,,,,,,,,,,,,5, 
+Tj
+z 26 46 27 hln 100 13 d_info:,0/128/0,,,,,,,,,,,,5, 
+Tsolder_joint
+*symbol BSS139 ako DMOS_K_L3d_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSS139
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSS139
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol BSP324 ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSP324
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSP324
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol SISC1_4N40E ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=SISC1_4N40E
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=SISC1_4N40E
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol BSP125 ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSP125
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSP125
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol SISC1_4N60D ako DMOS_K_L3d_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=SISC1_4N60D
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=SISC1_4N60D
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol BSS126 ako DMOS_K_L3d_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSS126
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSS126
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol SISC0_97N24D ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=SISC0_97N24D
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=SISC0_97N24D
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol BSS225 ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSS225
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSS225
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol BSS127 ako DMOS_K_L3_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSS127
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSS127
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
+*symbol BSP135 ako DMOS_K_L3d_SSP_n
+d Infineon DMOS with thermal network
+@type p
+@attributes
+a 0 sp 11 0 39 62 hln 100 PART=BSP135
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tsolder_joint @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth|
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=BSP135
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 10 hln 100 dZth=
