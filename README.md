@@ -114,7 +114,6 @@ Four Keras model files are included for direct inference or future reuse:
 
 
 
-
 ## 📈 Results Summary
 
 - ANN-based models effectively replace SPICE-based MOSFET models for current prediction.
@@ -128,8 +127,4 @@ Four Keras model files are included for direct inference or future reuse:
 - Improve generalisation across process corners using transfer learning or ensemble methods.
 - Integrate models into circuit-level simulation flows.
 
-## 🧾 Citation
 
-If you use this work in academic or commercial projects, please cite:
-
-**Mustafa Iqbal Kodvavi**, *Modelling and Characterisation of MOSFETs via Artificial Neural Networks Trained on Synthetic and Measured Data*, University of Manchester, March 2025.
